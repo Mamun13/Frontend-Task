@@ -8,20 +8,20 @@ const Menu = () => {
     <>
       <Navbar expand="lg" className="bg-body-tertiary mb-3">
         <Container>
-          <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ms-auto">
-              <Nav.Link href="#home" className="text-capitalize">
-                <div className="d-flex align-items-center">
-                  <div>
-                    <MdOutlineFavoriteBorder  />
-                  </div>
-                  <span className="ms-2">wishlist</span>
+          <Navbar.Brand href="#home">
+            <img src="/Zepto-logo.png" />
+          </Navbar.Brand>
+
+          <Nav className="ms-auto">
+            <Nav.Link href="#home" className="text-capitalize">
+              <div className="d-flex align-items-center">
+                <div>
+                  <MdOutlineFavoriteBorder />
                 </div>
-              </Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
+                <span className="ms-2">wishlist</span>
+              </div>
+            </Nav.Link>
+          </Nav>
         </Container>
       </Navbar>
     </>
