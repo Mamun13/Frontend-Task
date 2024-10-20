@@ -1,3 +1,4 @@
+import React, { useState, useEffect } from "react";
 import Head from "next/head";
 import HomePage from "../../components/homepage/Home";
 import Menu from "../../components/menu/Menu";

@@ -13,7 +13,7 @@ const Menu = () => {
           </Navbar.Brand>
 
           <Nav className="ms-auto">
-            <Nav.Link href="#home" className="text-capitalize">
+            <Nav.Link href="/wishlist" className="text-capitalize">
               <div className="d-flex align-items-center">
                 <div>
                   <MdOutlineFavoriteBorder />
